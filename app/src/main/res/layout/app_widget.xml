@@ -1,0 +1,52 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_roundedcorners_white">
+
+    <TextView
+        android:id="@+id/tv_widget_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Task 1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_widget_dueDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_widget_title"
+        android:layout_marginStart="8dp"
+        android:text="@string/duedate"
+        android:textColor="@color/darkGrey"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/tv_widget_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_widget_dueDate"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/iv_widget_priority"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/placeholder_text"
+        android:textColor="@color/darkGrey"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/iv_widget_priority"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/prio_green" />
+
+</RelativeLayout>

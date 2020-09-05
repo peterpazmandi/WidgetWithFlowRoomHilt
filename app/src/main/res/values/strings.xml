@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RoomBasics</string>
+
+    <string name="title">ToDo Title</string>
+    <string name="duedate">03.11.1988</string>
+    <string name="placeholder_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+
+    <string name="modify_todo">Modify ToDo</string>
+    <string name="modify">Modify</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>
